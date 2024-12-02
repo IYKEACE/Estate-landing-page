@@ -253,7 +253,7 @@ margin-top: 2rem;
   align-items: center;
   background-color: #5500d4;
   width: 100%;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   gap: 3rem;
   margin-top: 3rem;
 }
@@ -299,23 +299,114 @@ cursor: pointer;
 /* contact style end */
 
 /* info style start */
-.left-info-content{
+.info-container{
+  align-items: center;
+  display: flex;
+  gap: 1rem;
   background-color: #656565;
-  padding: 12px;
-  width: 100%;
-  justify-content: center;
-  color: #ffffff;
+}
+.left-info-content{
+  flex: 1;
 }
 .left-info-content img{
-  width: 120px;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
-}
-.logo{
-  color: #ffffff;
+  margin-top: 6rem;
+  width: 250px;
 }
 .icons{
+  color: #ffffff;
   display: flex;
-  gap: 10px;
+  gap: 2rem;
+  margin-left: 2.5rem;
+  margin-top: 1.7rem;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  cursor: pointer;
+  animation: icons 1s infinite;
 }
+@keyframes icons {
+  0%,
+  100%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+.middle-info-content{
+  flex: 1;
+}
+.info-title{
+font-family: Nunito Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 27.28px;
+color: #ffffff;
+margin-bottom: 2rem;
+}
+.info-desc{
+font-family: "lato";
+font-size: 16px;
+font-weight: 400;
+line-height: 29px;
+color: #ffffff;
+margin-bottom: 2rem;
+}
+.info-contact{
+font-family: "lato";
+font-size: 16px;
+font-weight: 400;
+line-height: 29px;
+color: #ffffff;
+margin-bottom: 2rem;
+}
+.info-tel{
+font-family: "lato";
+font-size: 16px;
+font-weight: 400;
+line-height: 29px;
+color: #ffffff;
+margin-top: 1.5rem;
+}
+.right-info-content{
+  flex: 2;
+  margin-bottom: 5rem;
+}
+.right-title{
+  color: #ffffff;
+  font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+}
+.right-desc{
+font-family: "lato";
+font-size: 16px;
+font-weight: 400;
+line-height: 29px;
+color: #ffffff;
+}
+.section{
+  width: 400px;
+}
+.info-btn{
+background-color: #656565;
+color: white;
+/* width: 179px; */
+font-size: 16px;
+padding: 10px 30px;
+border-radius: 10px;
+border: 1px solid #ffffff;
+cursor: pointer;
+font-weight: 400;
+}
+.info-btn:hover{
+  background-color: #7e7c90;
+  border: 1px solid #1b1b1b;
+  /* transform: scale(1.1); */
+  margin-top: 1rem;
+}
+/* .rectancle-content{
+display: flex;
+gap: 1rem;
+} */
 /* info style end */
