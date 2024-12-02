@@ -410,3 +410,18 @@ display: flex;
 gap: 1rem;
 } */
 /* info style end */
+/* footer stle start */
+.footer-container{
+  background-color: #454444;
+  padding: 30px;
+}
+.footer-title{
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+/* footer stle end */
